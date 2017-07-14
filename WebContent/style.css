@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+div.imgContainer {
+	float:left;
+	margin-right: -15%;
+    margin-top: 2%;
+    margin-left: 4%;
+	
+}
+img {
+	width:40%;
+}
+p {
+	    width: 35%;
+}
+p.imgText {
+	margin-left: 70%;
+    margin-top: -59%;
+    width:100%;
+}
+button.btn {
+	    margin-left: 69%;
+	    margin-top: 32%;
+        width: 65%;
+}
