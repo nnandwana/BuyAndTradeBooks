@@ -3,7 +3,10 @@ package books.bean;
 public class Books {
 	int bookId;
 	String bookName;
-	long bookPrice;
+	double bookPrice;
+	String author;
+	String img_path;
+	public int count=0;
 	public int getBookId() {
 		return bookId;
 	}
@@ -16,11 +19,26 @@ public class Books {
 	public void setBookName(String bookName) {
 		this.bookName = bookName;
 	}
-	public long getBookPrice() {
+	public double getBookPrice() {
 		return bookPrice;
 	}
 	public void setBookPrice(long bookPrice) {
 		this.bookPrice = bookPrice;
 	}
-
+	
+    public void num_objects(){
+    	count++;
+    }
+	public String getImg_path() {
+		return img_path;
+	}
+	public void setImg_path(String img_path) {
+		this.img_path = img_path;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
 }
